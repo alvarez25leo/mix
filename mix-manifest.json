@@ -1,6 +1,12 @@
 {
+    "/public/js/manifest.js": "/public/js/manifest.js",
+    "/public/js/manifest.js.map": "/public/js/manifest.js.map",
+    "/public/js/all.js": "/public/js/all.js",
+    "/public/js/all.js.map": "/public/js/all.js.map",
     "/public/js/app.js": "/public/js/app.js",
     "/public/css/vendor/app.css": "/public/css/vendor/app.css",
-    "/public/css/all.css": "/public/css/all.css",
-    "/public/js/all.js": "/public/js/all.js"
+    "/public/js/app.js.map": "/public/js/app.js.map",
+    "/public/js/vendor.js": "/public/js/vendor.js",
+    "/public/js/vendor.js.map": "/public/js/vendor.js.map",
+    "/public/css/all.css": "/public/css/all.css"
 }
