@@ -58,7 +58,8 @@ mix.copyDirectory('node_modules/@mdi/font/fonts', pathFonts)
 mix.copyDirectory('node_modules/font-awesome/fonts', pathFonts)
 
 mix.js('resources/vue/app.js', 'public/js')
-    .extract(['lodash', 'js-cookie', 'moment', 'popper.js', 'jquery', 'bootstrap', 'axios', 'vue', 'vuex'])
+    .extract(['lodash', 'js-cookie', 'popper.js', 'jquery', 'bootstrap'], 'public/js/vendor.bundle.base.js')
+    .extract(['moment', 'axios', 'vue', 'vuex'], 'public/js/vendor.bundle.addons.js')
     .webpackConfig({
         resolve: {
             alias: {
