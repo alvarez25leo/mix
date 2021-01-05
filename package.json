@@ -13,7 +13,7 @@
         "@grafite/helpers": "1.0.2",
         "@mdi/font": "^5.3.45",
         "animate.css": "^4.1.0",
-        "axios": "^0.19",
+        "axios": "^0.21",
         "bootstrap": "^4.5",
         "cross-env": "^7.0",
         "eslint": "^7.3.0",
